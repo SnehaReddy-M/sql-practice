@@ -2,9 +2,18 @@
 
 ## Overview
 
-This repository contains my SQL learning journey and practice projects completed using MySQL.
+This repository contains SQL practice projects developed using MySQL as part of my learning journey in databases and data analytics.
 
-The goal of this repository is to strengthen my understanding of SQL fundamentals, database management, data retrieval, filtering, aggregation, and advanced querying techniques.
+The projects focus on understanding database fundamentals, table creation, data manipulation, data retrieval, filtering, sorting, and aggregate functions.
+
+---
+
+## Technologies Used
+
+- SQL
+- MySQL
+- MySQL Workbench
+- GitHub
 
 ---
 
@@ -15,17 +24,16 @@ The goal of this repository is to strengthen my understanding of SQL fundamental
 - Tables
 - Rows and Columns
 - Primary Keys
-- Foreign Keys
 - Data Types
 
 ### SQL Commands
 - CREATE DATABASE
 - CREATE TABLE
-- ALTER TABLE
-- DROP TABLE
 - INSERT INTO
+- SELECT
 - UPDATE
 - DELETE
+- DROP
 
 ### Data Retrieval
 - SELECT
@@ -49,27 +57,60 @@ The goal of this repository is to strengthen my understanding of SQL fundamental
 - MAX()
 - MIN()
 
-### Upcoming Topics
-- GROUP BY
-- HAVING
-- JOINS
-- Subqueries
-- Views
-- Window Functions
-
 ---
 
 ## Projects
 
-### Student Management System
-A beginner SQL project used to practice:
-- Table Creation
-- Data Insertion
-- Data Retrieval
-- Filtering Data
-- Aggregate Functions
+### 1. Student Management System
 
-More projects will be added as I continue learning SQL.
+A beginner SQL project designed to manage student records.
+
+#### Features
+- Store student information
+- Retrieve student records
+- Filter students based on marks and department
+- Sort records
+- Calculate statistics using aggregate functions
+
+#### Concepts Used
+- CREATE DATABASE
+- CREATE TABLE
+- INSERT INTO
+- SELECT
+- WHERE
+- ORDER BY
+- COUNT()
+- SUM()
+- AVG()
+- MAX()
+- MIN()
+
+---
+
+### 2. Employee Database
+
+A beginner SQL project designed to manage employee records.
+
+#### Features
+- Store employee information
+- Retrieve employee records
+- Filter employees based on salary, department, and experience
+- Sort employee data
+- Perform salary analysis using aggregate functions
+
+#### Concepts Used
+- CREATE DATABASE
+- CREATE TABLE
+- INSERT INTO
+- SELECT
+- WHERE
+- AND / OR
+- ORDER BY
+- COUNT()
+- SUM()
+- AVG()
+- MAX()
+- MIN()
 
 ---
 
@@ -79,27 +120,36 @@ More projects will be added as I continue learning SQL.
 sql-practice
 │
 ├── student_management_system.sql
-├── README.md
-└── (future SQL projects)
+├── employee_database.sql
+└── README.md
 ```
 
 ---
 
-## Tools Used
+## Learning Outcomes
 
-- MySQL
-- MySQL Workbench
-- GitHub
+Through these projects, I learned:
+
+- Database creation and management
+- Table design and data types
+- Data insertion and retrieval
+- Data filtering and sorting
+- Aggregate functions for data analysis
+- Writing structured SQL queries
 
 ---
 
-## Learning Goal
+## Future Topics
 
-To build strong SQL skills for:
-- Data Analytics
-- Business Intelligence
-- Database Management
-- Software Development
+The following SQL concepts will be added in future projects:
+
+- GROUP BY
+- HAVING
+- JOINS
+- Subqueries
+- Views
+- Stored Procedures
+- Window Functions
 
 ---
 
@@ -107,7 +157,7 @@ To build strong SQL skills for:
 
 Sneha Reddy
 
-B.Tech (ECE) Graduate
+B.Tech in Electronics and Communication Engineering (ECE)
 
 - SQL
 - Python
