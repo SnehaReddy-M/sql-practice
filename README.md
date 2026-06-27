@@ -151,6 +151,64 @@ The following SQL concepts will be added in future projects:
 - Stored Procedures
 - Window Functions
 
+  # 🛒 Online Store Database
+
+## Project Overview
+
+The Online Store Database is a SQL project that simulates the backend database of an e-commerce application. It demonstrates database design, table relationships, data management, and business analysis using SQL queries.
+
+### Database Tables
+
+- Customers
+- Products
+- Orders
+- OrderDetails
+
+### Relationships
+
+- One Customer → Many Orders
+- One Order → Many Order Details
+- One Product → Many Order Details
+
+### SQL Concepts Used
+
+- CREATE DATABASE
+- CREATE TABLE
+- PRIMARY KEY
+- FOREIGN KEY
+- INSERT INTO
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- INNER JOIN
+- LEFT JOIN
+- Aggregate Functions
+- Multi-table Joins
+
+### Business Queries
+
+- Display customer order history
+- Display products purchased by customers
+- Calculate total order amount
+- Calculate customer spending
+- Find best-selling products
+- Find products that were never sold
+- Find customers without orders
+- Calculate total revenue
+- Count orders placed by each customer
+- Perform multi-table analysis using JOINs
+
+### Learning Outcomes
+
+- Relational Database Design
+- One-to-Many Relationships
+- SQL Joins
+- Aggregate Functions
+- Business Data Analysis
+- Query Optimization Basics
+
 ---
 
 ## Author
