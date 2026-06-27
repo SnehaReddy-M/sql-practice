@@ -1,182 +1,37 @@
-# SQL Practice Repository
+# SQL Projects
 
 ## Overview
 
-This repository contains SQL practice projects developed using MySQL as part of my learning journey in databases and data analytics.
+This repository contains SQL projects that demonstrate my understanding of relational database design, SQL queries, joins, aggregate functions, and multi-table analysis using MySQL.
 
-The projects focus on understanding database fundamentals, table creation, data manipulation, data retrieval, filtering, sorting, and aggregate functions.
-
----
-
-## Technologies Used
-
-- SQL
-- MySQL
-- MySQL Workbench
-- GitHub
+These projects were built as part of my SQL learning journey and cover real-world database scenarios.
 
 ---
 
-## Topics Covered
-
-### Database Fundamentals
-- Databases
-- Tables
-- Rows and Columns
-- Primary Keys
-- Data Types
-
-### SQL Commands
-- CREATE DATABASE
-- CREATE TABLE
-- INSERT INTO
-- SELECT
-- UPDATE
-- DELETE
-- DROP
-
-### Data Retrieval
-- SELECT
-- WHERE
-- DISTINCT
-- ORDER BY
-- LIMIT
-
-### Filtering Data
-- AND
-- OR
-- NOT
-- BETWEEN
-- IN
-- LIKE
-
-### Aggregate Functions
-- COUNT()
-- SUM()
-- AVG()
-- MAX()
-- MIN()
-
----
-
-## Projects
+## Projects Included
 
 ### 1. Student Management System
 
-A beginner SQL project designed to manage student records.
+**Description**
 
-#### Features
-- Store student information
-- Retrieve student records
-- Filter students based on marks and department
-- Sort records
-- Calculate statistics using aggregate functions
+A database designed to manage student information, courses, and academic records.
 
-#### Concepts Used
-- CREATE DATABASE
-- CREATE TABLE
-- INSERT INTO
-- SELECT
-- WHERE
-- ORDER BY
-- COUNT()
-- SUM()
-- AVG()
-- MAX()
-- MIN()
+**Key Features**
 
----
+- Student records management
+- Course management
+- Student enrollment
+- SQL joins
+- Aggregate queries
+- Data retrieval and filtering
 
-### 2. Employee Database
-
-A beginner SQL project designed to manage employee records.
-
-#### Features
-- Store employee information
-- Retrieve employee records
-- Filter employees based on salary, department, and experience
-- Sort employee data
-- Perform salary analysis using aggregate functions
-
-#### Concepts Used
-- CREATE DATABASE
-- CREATE TABLE
-- INSERT INTO
-- SELECT
-- WHERE
-- AND / OR
-- ORDER BY
-- COUNT()
-- SUM()
-- AVG()
-- MAX()
-- MIN()
-
----
-
-## Repository Structure
-
-```text
-sql-practice
-│
-├── student_management_system.sql
-├── employee_database.sql
-└── README.md
-```
-
----
-
-## Learning Outcomes
-
-Through these projects, I learned:
-
-- Database creation and management
-- Table design and data types
-- Data insertion and retrieval
-- Data filtering and sorting
-- Aggregate functions for data analysis
-- Writing structured SQL queries
-
----
-
-## Future Topics
-
-The following SQL concepts will be added in future projects:
-
-- GROUP BY
-- HAVING
-- JOINS
-- Subqueries
-- Views
-- Stored Procedures
-- Window Functions
-
-  # 🛒 Online Store Database
-
-## Project Overview
-
-The Online Store Database is a SQL project that simulates the backend database of an e-commerce application. It demonstrates database design, table relationships, data management, and business analysis using SQL queries.
-
-### Database Tables
-
-- Customers
-- Products
-- Orders
-- OrderDetails
-
-### Relationships
-
-- One Customer → Many Orders
-- One Order → Many Order Details
-- One Product → Many Order Details
-
-### SQL Concepts Used
+**SQL Concepts Used**
 
 - CREATE DATABASE
 - CREATE TABLE
 - PRIMARY KEY
 - FOREIGN KEY
-- INSERT INTO
+- INSERT
 - SELECT
 - WHERE
 - ORDER BY
@@ -184,40 +39,167 @@ The Online Store Database is a SQL project that simulates the backend database o
 - HAVING
 - INNER JOIN
 - LEFT JOIN
-- Aggregate Functions
-- Multi-table Joins
 
-### Business Queries
+---
 
-- Display customer order history
-- Display products purchased by customers
-- Calculate total order amount
-- Calculate customer spending
-- Find best-selling products
-- Find products that were never sold
-- Find customers without orders
-- Calculate total revenue
-- Count orders placed by each customer
-- Perform multi-table analysis using JOINs
+### 2. Employee Database
 
-### Learning Outcomes
+**Description**
 
-- Relational Database Design
+A database designed to manage employee information, departments, and organizational data.
+
+**Key Features**
+
+- Employee records
+- Department management
+- Employee–Department relationships
+- Salary analysis
+- Department-wise reports
+- Multi-table queries
+
+**SQL Concepts Used**
+
+- Table Relationships
 - One-to-Many Relationships
-- SQL Joins
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
 - Aggregate Functions
-- Business Data Analysis
-- Query Optimization Basics
+- GROUP BY
+- HAVING
+
+---
+
+### 3. Online Store Database
+
+**Description**
+
+A database that simulates an online shopping system with customers, products, orders, and order details.
+
+**Database Tables**
+
+- Customers
+- Products
+- Orders
+- OrderDetails
+
+**Key Features**
+
+- Customer order history
+- Product sales analysis
+- Customer spending analysis
+- Best-selling products
+- Revenue calculation
+- Multi-table JOIN queries
+
+**SQL Concepts Used**
+
+- Primary Keys
+- Foreign Keys
+- One-to-Many Relationships
+- Multi-table JOINs
+- Aggregate Functions
+- GROUP BY
+- HAVING
+
+---
+
+## SQL Skills Demonstrated
+
+- Database Design
+- Relational Database Concepts
+- Primary Keys
+- Foreign Keys
+- One-to-One Relationships
+- One-to-Many Relationships
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+- SELF JOIN
+- Multi-table Analysis
+- WHERE Clause
+- ORDER BY
+- GROUP BY
+- HAVING
+- Aggregate Functions
+  - COUNT()
+  - SUM()
+  - AVG()
+  - MIN()
+  - MAX()
+- Data Filtering
+- Business Query Writing
+
+---
+
+## Repository Structure
+
+```text
+SQL-Projects/
+│
+├── Student-Management-System/
+│   ├── README.md
+│   ├── schema.sql
+│   ├── insert_data.sql
+│   └── queries.sql
+│
+├── Employee-Database/
+│   ├── README.md
+│   ├── schema.sql
+│   ├── insert_data.sql
+│   └── queries.sql
+│
+└── Online-Store-Database/
+    ├── README.md
+    ├── schema.sql
+    ├── insert_data.sql
+    └── queries.sql
+```
+
+---
+
+## Tools Used
+
+- MySQL
+- SQL
+- Git
+- GitHub
+
+---
+
+## Learning Goals
+
+Through these projects, I practiced:
+
+- Designing relational databases
+- Building normalized tables
+- Creating relationships between tables
+- Writing SQL queries for real-world business scenarios
+- Performing data analysis using SQL
+- Developing problem-solving skills through database projects
+
+---
+
+## Future Improvements
+
+As I continue learning SQL, I plan to add:
+
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- Views
+- Stored Procedures
+- Triggers
+- Indexes
+- Advanced SQL optimization techniques
 
 ---
 
 ## Author
 
-Sneha Reddy
+**Sneha Reddy**
 
-B.Tech in Electronics and Communication Engineering (ECE)
+B.Tech (Electronics and Communication Engineering)
 
-- SQL
-- Python
-- Data Analytics
-- Cloud Computing
+Aspiring Software Engineer | SQL | Python | Database Management | GitHub
