@@ -131,31 +131,6 @@ A database that simulates an online shopping system with customers, products, or
 - Data Filtering
 - Business Query Writing
 
----
-
-## Repository Structure
-
-```text
-SQL-Projects/
-│
-├── Student-Management-System/
-│   ├── README.md
-│   ├── schema.sql
-│   ├── insert_data.sql
-│   └── queries.sql
-│
-├── Employee-Database/
-│   ├── README.md
-│   ├── schema.sql
-│   ├── insert_data.sql
-│   └── queries.sql
-│
-└── Online-Store-Database/
-    ├── README.md
-    ├── schema.sql
-    ├── insert_data.sql
-    └── queries.sql
-```
 
 ---
 
